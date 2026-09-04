@@ -1,0 +1,58 @@
+from __future__ import annotations
+import os, secrets
+from dataclasses import dataclass
+from dotenv import load_dotenv
+load_dotenv()
+
+def _i(k,d,lo=None,hi=None):
+    v=int(os.getenv(k,str(d)) or d)
+    if lo is not None: v=max(lo,v)
+    if hi is not None: v=min(hi,v)
+    return v
+
+@dataclass(frozen=True)
+class Settings:
+    # V2.6/V2.7 data remains compatible; V2.8 only adds tables and safeguards.
+    bot_token:str=os.getenv('BOT_TOKEN','').strip()
+    owner_id:int=int(os.getenv('OWNER_ID','0') or 0)
+    instance_name:str=os.getenv('INSTANCE_NAME','WhatsApp Link Ops V2.8 FINAL').strip()
+    db_path:str=os.getenv('DB_PATH','data/whatsapp_ops.db').strip()
+    export_dir:str=os.getenv('EXPORT_DIR','data/exports').strip()
+    backup_dir:str=os.getenv('BACKUP_DIR','data/backups').strip()
+    wa_provider_url:str=os.getenv('WA_PROVIDER_URL','http://127.0.0.1:8765').strip()
+    wa_provider_token:str=os.getenv('WA_PROVIDER_TOKEN','').strip()
+    wa_provider_timeout:int=_i('WA_PROVIDER_TIMEOUT',30,5,120)
+    wa_sync_interval:float=float(os.getenv('WA_SYNC_INTERVAL','2.0'))
+    wa_sync_batch:int=_i('WA_SYNC_BATCH',2000,100,5000)
+    collector_db_batch:int=_i('COLLECTOR_DB_BATCH',1000,100,5000)
+    web_audit_workers:int=_i('WEB_AUDIT_WORKERS',64,1,128)
+    web_audit_timeout_seconds:int=_i('WEB_AUDIT_TIMEOUT_SECONDS',15,5,60)
+    join_batch_per_account:int=_i('JOIN_BATCH_PER_ACCOUNT',10,1,100000)
+    join_batch_rest_seconds:int=_i('JOIN_BATCH_REST_SECONDS',3600,0,604800)
+    join_item_delay_seconds:int=_i('JOIN_ITEM_DELAY_SECONDS',30,0,86400)
+    join_safe_daily_limit:int=_i('JOIN_SAFE_DAILY_LIMIT',10,1,100)
+    join_safe_min_delay_seconds:int=_i('JOIN_SAFE_MIN_DELAY_SECONDS',60,15,86400)
+    join_safe_max_delay_seconds:int=_i('JOIN_SAFE_MAX_DELAY_SECONDS',120,15,86400)
+    join_safe_batch_size:int=_i('JOIN_SAFE_BATCH_SIZE',5,1,20)
+    join_safe_batch_rest_seconds:int=_i('JOIN_SAFE_BATCH_REST_SECONDS',5400,300,604800)
+    join_balanced_daily_limit:int=_i('JOIN_BALANCED_DAILY_LIMIT',20,1,200)
+    join_rate_limit_cooldown_seconds:int=_i('JOIN_RATE_LIMIT_COOLDOWN_SECONDS',86400,3600,604800)
+    join_failure_circuit_threshold:int=_i('JOIN_FAILURE_CIRCUIT_THRESHOLD',3,2,20)
+    broadcast_max_messages_per_target:int=_i('BROADCAST_MAX_MESSAGES_PER_TARGET',100,1,100)
+    broadcast_min_group_delay_seconds:int=_i('BROADCAST_MIN_GROUP_DELAY_SECONDS',0,0,86400)
+    broadcast_min_chat_delay_seconds:int=_i('BROADCAST_MIN_CHAT_DELAY_SECONDS',0,0,86400)
+    broadcast_min_batch_rest_seconds:int=_i('BROADCAST_MIN_BATCH_REST_SECONDS',0,0,604800)
+    broadcast_max_repeat_cycles:int=_i('BROADCAST_MAX_REPEAT_CYCLES',100,1,1000)
+    broadcast_min_repeat_interval_seconds:int=_i('BROADCAST_MIN_REPEAT_INTERVAL_SECONDS',0,0,604800)
+    telegram_api_id:int=_i('TELEGRAM_API_ID',0,0,None)
+    telegram_api_hash:str=os.getenv('TELEGRAM_API_HASH','').strip()
+    telegram_session_path:str=os.getenv('TELEGRAM_SESSION_PATH','data/telegram_user').strip()
+    telegram_sessions_dir:str=os.getenv('TELEGRAM_SESSIONS_DIR','data/telethon').strip()
+    telegram_sync_interval_seconds:int=_i('TELEGRAM_SYNC_INTERVAL_SECONDS',60,15,3600)
+    text_import_max_mb:int=_i('TEXT_IMPORT_MAX_MB',10,1,20)
+    scheduler_interval_seconds:int=_i('SCHEDULER_INTERVAL_SECONDS',15,5,300)
+    health_check_timeout_seconds:int=_i('HEALTH_CHECK_TIMEOUT_SECONDS',12,5,60)
+    backup_keep_count:int=_i('BACKUP_KEEP_COUNT',7,1,100)
+    message_retention_days:int=_i('MESSAGE_RETENTION_DAYS',90,7,3650)
+    message_archive_batch:int=_i('MESSAGE_ARCHIVE_BATCH',5000,100,20000)
+settings=Settings()
