@@ -1,0 +1,493 @@
+{
+  "release": "2.8.0-full-merged-final",
+  "file_count_excluding_manifest": 81,
+  "uncompressed_bytes_excluding_manifest": 485871,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 1856,
+      "sha256": "673bc7a6db36524049ec2d18488b955243f76ac989c155b824b7cf12723ca929",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "BUTTONS_AND_FEATURES_AR.md",
+      "bytes": 35494,
+      "sha256": "a9a66f2c874cc43abdd184a04afc86f741b0ed9b3dc6fd357cea9d495d136509",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "FEATURES_V2_6_AR.md",
+      "bytes": 808,
+      "sha256": "9f28682b1181e7ee5129a8ea83a1dddd8838d7faa1c97ff6d59d3870de5d6240",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "FEATURES_V2_7_AR.md",
+      "bytes": 3192,
+      "sha256": "8e6c3f1ec6cf4914c505b9860ac31232320b2178cc1d8c4c1880cee2944eae35",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "FEATURES_V2_8_AR.md",
+      "bytes": 1789,
+      "sha256": "115f10721f9d8829113db7758ad234b7ae89c09e176860bf14d334e5d08b2881",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "FEATURE_IDEAS_NEXT_AR.md",
+      "bytes": 2942,
+      "sha256": "fea47fc59b22764030c9bd09e7274eee7c555b024dbbce661a6e4ee1f95f1d2d",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "FINAL_FEATURES_V2_4_AR.md",
+      "bytes": 3078,
+      "sha256": "4fac82ba851ab1e3aab3a88ab32ec5a07279fe62edd5cb9251b83505d0e98792",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "FINAL_FEATURES_V2_5_AR.md",
+      "bytes": 2776,
+      "sha256": "158734d5f8598d392ea87632a5a4a7441bb042556d188495089e6c9639eb9d11",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "FIXES_V2_5_1_AR.md",
+      "bytes": 1006,
+      "sha256": "3d57218e2bd7a48354115cf2a06f2b8f89aee2ca4ea6c20ff68ce4a215d9c39e",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "INSTALL_TERMUX_AR.md",
+      "bytes": 3585,
+      "sha256": "ba16caaffee345dadef6d606e66c5ca29f3d09d0b6fb29fe8551bf5daad58714",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "MERGE_MANIFEST_AR.md",
+      "bytes": 4832,
+      "sha256": "766b20e2ba31a37c530a14094df5373d81b4095c35afdb4b200f81b392f1e8ba",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "README_AR.md",
+      "bytes": 8915,
+      "sha256": "46ab9c34647e17502da5af923f1e54ef6f722bb5bdfd507cd9fb505acdfd636d",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "REQUESTED_FEATURES_V2_7_VERIFIED_AR.md",
+      "bytes": 1813,
+      "sha256": "b22caeefbeb14dac8ebf811235df220ae3a07f9b2a29d44d618b55f619be2489",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "REQUESTED_FEATURES_VERIFIED_AR.md",
+      "bytes": 1856,
+      "sha256": "8ce173c6c918646a8e168e03acc73886ed7a0d0e63a7b3544466d27d5e1f0c81",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "SECURITY_AND_PROVIDER_NOTES_AR.md",
+      "bytes": 1121,
+      "sha256": "c1f55af9e0fb3e929b4a73b0a955818b423dec4d35440833d981b47a2009a816",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_1_AR.md",
+      "bytes": 1092,
+      "sha256": "e4a421e2fc1ba89fc94327c668201d9041d7c5bf9c0147c06f25bfe3a67d1497",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_1_TO_V2_4_AR.md",
+      "bytes": 1012,
+      "sha256": "0ad59c06163fd4e90824d716ae8315c611dd15f72d0e67e8d198031534614e7d",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_1_TO_V2_5_AR.md",
+      "bytes": 3403,
+      "sha256": "12601afd1cf538ed46367470b3b3e079fab600aef429ab1ddbbf6ae0c202e522",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_2_AR.md",
+      "bytes": 915,
+      "sha256": "1549b548bd048f72956d2091292100d1acc9846b24fa5048d68576f5053908c9",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_3_AR.md",
+      "bytes": 690,
+      "sha256": "090eded8b799848ccbcaded7a720b8c8b9704bcbdc1bd72484c5d7aa4c4176d2",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_5_1_TO_V2_6_AR.md",
+      "bytes": 658,
+      "sha256": "eb72ae9927862ce8639b23d3c03bc467a47507fc049b05f057215856aa1a525f",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_5_TO_V2_5_1_AR.md",
+      "bytes": 903,
+      "sha256": "dfbab80609e5a97a252a72e80c019effdda675906e4010acdcca67c05aaebc37",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_6_TO_V2_7_AR.md",
+      "bytes": 917,
+      "sha256": "1e2a0353f888fdd1a12239432f1c80bfbdcd1c95e260553541daf7f01ad36624",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "UPGRADE_V2_7_TO_V2_8_AR.md",
+      "bytes": 743,
+      "sha256": "79adf2305783e089125eaaa5f3cec0e4cc2f00428dd6b16420e5abcefdd3576b",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "VALIDATION_FULL_MERGED_AR.md",
+      "bytes": 791,
+      "sha256": "6cd3259edcc0fa20fb75c1c14b35b090ad939b25992c194dadadb995860619e6",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "VALIDATION_INSTALL_FIXED_AR.md",
+      "bytes": 398,
+      "sha256": "fb0c2630c020cd5d93fa06646b907b08b4ce69030250ae51b411bb7a8d81e170",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "VALIDATION_V2_5_AR.md",
+      "bytes": 1132,
+      "sha256": "406c18318732b354cc1a499e57b68e2de9545eb3212ccca615b0bdf498dae18e",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "VALIDATION_V2_7_AR.md",
+      "bytes": 1208,
+      "sha256": "6f7c2df49cdc266019b8b793fb368bfab9bf84756bd3f121ed433e7327d95940",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "VALIDATION_V2_8_AR.md",
+      "bytes": 902,
+      "sha256": "313f3b1bdd11cdd33895564acd1aeebfbe6848a6f87df13e2ae39d2060f3e1ba",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 12,
+      "sha256": "5bc78dfc85025bc149be14d3793b78c722ea50042389e6bbc120137470e36b7a",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "WHATSAPP_JOIN_SAFETY_AR.md",
+      "bytes": 2165,
+      "sha256": "f56ded29d318215e3c27d3b5584e00438cc1dde684b2b2d646902c35930f9d3b",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/bot.py",
+      "bytes": 177707,
+      "sha256": "54e0d7e1af532718a72f5026db5c50330f1977dc6910ec47e3d05cf5c2b8f5a8",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/config.py",
+      "bytes": 3574,
+      "sha256": "64dc3dd3a868694f65d63e99bfde48b3dfe5d9985ff015dfdc98f94c51413b5e",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/db.py",
+      "bytes": 27958,
+      "sha256": "2d7a12031aa465464b8d66f259b183b97a01fd861bf7b4059ce43f02853d767f",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/keyboards.py",
+      "bytes": 1645,
+      "sha256": "a05357ca2baef9d57cdf8297d6b68f5929ba1c65fd9e6415606943061fe630dd",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/link_utils.py",
+      "bytes": 2482,
+      "sha256": "225c2f83f1d299339abfc87b9cb370484f7ed29c6c86bc5d7e2b36455e6ef326",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/main.py",
+      "bytes": 82,
+      "sha256": "f160c2b1d3ca3929c85622a843f3982b871843698b2e7e82c27f76270f9098f7",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/admin_tools.py",
+      "bytes": 3934,
+      "sha256": "561169429592035103e557fc74d9162bfaecd66cd1a6c2c4c3841c8c2f2fd5ad",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/alerts.py",
+      "bytes": 4401,
+      "sha256": "41e3b31dbfeaa226996052d168ce30ebc77f0b7567eb3921a1031e2e62eb0c6d",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/broadcast.py",
+      "bytes": 11575,
+      "sha256": "2521db3f7846bf3fd3cd2ef3cde27ae8137cf09e66b71d47c90754af33659264",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/collector.py",
+      "bytes": 10238,
+      "sha256": "c153f968d8d26bd0d41f072fa164c51fbc7dc67a33b481a4503d416347b9abdb",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/exporter.py",
+      "bytes": 6881,
+      "sha256": "4b6a6115d87a888096cb267cec5be6db7f6f312999f26c8bb45992757a0c3486",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/file_imports.py",
+      "bytes": 3682,
+      "sha256": "cf555189a311c53624be3eb9cc026c5b633afda7b6a3d153911580958dc839b3",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/jobs.py",
+      "bytes": 3699,
+      "sha256": "4196ffa550329e534d6ad8e75672d15fa5b352e2fbe67665726a421568c37773",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/join_safety.py",
+      "bytes": 6385,
+      "sha256": "39edd7ee6d5026f13ffa8229bbdce7d26972af00076cd65d0b715c572d1d33a4",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/join_worker.py",
+      "bytes": 16812,
+      "sha256": "b96b5957d212ec05562269bfade69c033513f750cf6cef64a8d7962734393bdb",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/permissions.py",
+      "bytes": 6709,
+      "sha256": "288831ebc079792f05dfbd3db7a39e1ac1965a60c7377e3127ed71b5d50d1e87",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/retention.py",
+      "bytes": 6816,
+      "sha256": "3a1bf928acc8fd21960c256bacf6950b513848b351765ed732e487ec8883ed40",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/system_tools.py",
+      "bytes": 5631,
+      "sha256": "f0978e7b4663dfac08bfa56a5c67da45db4edb8010af98af474c5a0f46feaaae",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/task_center.py",
+      "bytes": 7664,
+      "sha256": "14e30ddc7590096dbb7d479d7a6bc909e4c9621d1b433c03d7a84bfdae45b4c3",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/telegram_history.py",
+      "bytes": 9559,
+      "sha256": "5c2f72b4a65cf2fbf479c0b79b47739d63e1553b70c3dca9d6307cdfe9f0a5f5",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/telegram_sessions.py",
+      "bytes": 12172,
+      "sha256": "350d18b2cd09c2f6be41bcf812b96edf4e1bbcd33e587a59dfeab107b26a0efa",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/telegram_sources.py",
+      "bytes": 3348,
+      "sha256": "b8ca424ae116979ac31cd3716050977ccc0c72778578d4d55a0fc11f49eef6d8",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/wa_provider.py",
+      "bytes": 2926,
+      "sha256": "527e30f7f44a139c434da8ea09cecb7c47d9149c7851d7bbd01d4d54fb21e1c3",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/wa_sync.py",
+      "bytes": 5108,
+      "sha256": "138cf16dab3799846a6fac04c15ffafd6efed7d14b19d1071455d7ed11f93994",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "app/services/web_auditor.py",
+      "bytes": 3131,
+      "sha256": "6d45734e7ecad97d76f6f1e6be5b54b62fbd4e4ef7082e69d7ea4b15ad3a2783",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "botctl.sh",
+      "bytes": 4243,
+      "sha256": "6a668f7d20d89284c87ff3f04554d6d528f8870c2c24a5a7acd76a51f3387d65",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "install-ubuntu.sh",
+      "bytes": 1648,
+      "sha256": "9ba4ba38455d6e74cf51f4ef50fb62f6aef2c91a5eb28b220a1bcf2be3061b49",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "provider/message_text.mjs",
+      "bytes": 1416,
+      "sha256": "08ba5b34b0907633fe5abc916b3c50a3ae070cf3c015b270affceab7a3e8b3f2",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "provider/package.json",
+      "bytes": 243,
+      "sha256": "b3a159ab3a7fe1ec86bad4fdb61c70f3c0299ec39d7f02737da6701129e07c1b",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "provider/server.mjs",
+      "bytes": 10641,
+      "sha256": "2351d71fb8cc9e40b95f49d6f132f207ec43136fb14df4320b7179014a15d0b0",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "provider/test_message_text.mjs",
+      "bytes": 751,
+      "sha256": "2dd691d5f6f7de31559f5600d813c80ac543b78a0a3171f40bd0e19e36601e75",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 112,
+      "sha256": "9d77cc355aaac0200225f320d02b41e8de1ae115d72c4996f387d3acc91bdd92",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "start-bot.sh",
+      "bytes": 138,
+      "sha256": "c9157f52dcf2d2aab18cd06ec6167ef2060784c2c54d7a37d1fd4a091e9f8a62",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "start-provider.sh",
+      "bytes": 136,
+      "sha256": "f9217a56c50ff578f02d5b708e1a24a6554ec9c5d3a5667f88fb2f7bdf067a6a",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "start.sh",
+      "bytes": 59,
+      "sha256": "40ecca1ac17ac8523278271cf87e6de4108aea597e05fff1d1e998c3d173b0d5",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "telegram_session_login.py",
+      "bytes": 843,
+      "sha256": "97b9b28e270dd774e93291644dcc5e670f580f6a1b062e95b6b6c5f483002227",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_static.py",
+      "bytes": 1162,
+      "sha256": "95c5b11ce77c84cd72700ca6a5a8b85f5acf56c3acea09fcdf3bca60b35aa22c",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_1_static.py",
+      "bytes": 1631,
+      "sha256": "8405cf5bc0ca956d2031f2d0b71dcefd469429f89e2e09d4c772d95c00d3f0fa",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_2_static.py",
+      "bytes": 1721,
+      "sha256": "a996b0176149cae6b44d04a67ee30123ee0c19956a633779821fe7daae55975f",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_3_static.py",
+      "bytes": 1723,
+      "sha256": "21690b4512632004c9866bcf2a26d4f3ad174deb841f50c9c57b07049c7f4fd5",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_4_static.py",
+      "bytes": 1545,
+      "sha256": "e9699b379a3444af45d624f5ebd6c7309b74174d20ad0b2a300bc36899e34b2c",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_5_static.py",
+      "bytes": 3540,
+      "sha256": "85c874350b6df065c479ee039dcee6daf7dc6c7906a1b2516e3d6d20e86e550f",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_6_static.py",
+      "bytes": 2404,
+      "sha256": "3332f5be7857c103945463c6c9bbd9ee92e7b92741ddf20f1b1feeffd1f5a33d",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_7_db.py",
+      "bytes": 2660,
+      "sha256": "2d9945eb97c5a3e16bdf18fde76108bebe259ed37942b4926274ef322b603303",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_7_static.py",
+      "bytes": 2679,
+      "sha256": "2c0c1260b5216c0f8f40f86e4cb0bfae3e87e5cc8dad4f2646d1ccd362a86809",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_8_db.py",
+      "bytes": 4441,
+      "sha256": "b7dd561c10f263d15d9eff963440ab3974b3c0789e5ed3fbe1e056a505a3b011",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_8_join_worker.py",
+      "bytes": 2903,
+      "sha256": "529de3258beec194c79b93284e2cb5b31684805a56374a63d03c5b3a15c8c273",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_8_static.py",
+      "bytes": 2073,
+      "sha256": "f2b4177ff5d5720e77c3f501d51eab8cd418f7246f3b23e2c682541d7bee6b70",
+      "origin": "V2.8-MERGED"
+    },
+    {
+      "path": "tests/test_v2_static.py",
+      "bytes": 1036,
+      "sha256": "b05cd615a669b16c1f5c03e537d96e768cb6b4c391db8a3ff586c19a2802fa4b",
+      "origin": "V2.8-MERGED"
+    }
+  ]
+}
